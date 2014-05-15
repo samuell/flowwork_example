@@ -8,11 +8,11 @@ import (
 )
 
 const (
-	NUMTHREADS = 4
+	NUMTHREADS = 2
 )
 
 // ---------------------------------------------------------
-// BaseComplementer network
+// An Example FlowWork network
 // ---------------------------------------------------------
 type FlowWorkApp struct {
 	flow.Graph
